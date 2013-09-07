@@ -1,0 +1,33 @@
+    DesktopAssistant 
+    Copyright (C) 2013,  Zafar Ahmed Ansari
+
+    This program is free software: you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation, either version 3 of the License, or
+    (at your option) any later version.
+
+    This program is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+
+    You should have received a copy of the GNU General Public License
+    along with this program.  If not, see <http://www.gnu.org/licenses/>.
+
+Compilation:
+You must have Java Development Kit 1.7.0_01 or greater installed. 
+Open a terminal/command prompt.
+Navigate to the directory where you downloaded the source files.
+Run "javac Reminder.java" without the quotes.
+
+
+Running the application:
+You must have Java Runtime Environment (JRE) 1.7.0_01 or greater installed.
+Open a terminal/command prompt.
+Navigate to the directory where you downloaded the compiled files/ where you compiled the source files.
+Run "java Reminder" without the quotes.
+Application icon will appear in your system tray.
+Have fun.
+
+For best use add a batch file (running the application) in your startup directory in Windows / a script to the startup applications in Linux.
+You can also create a jar file and run the command 'java -jar reminder.jar' (supposing your jar file name is reminder.jar) in the batch file/script. But this application requires file writes, and the jar won't allow modification of its contents. In such a case if the jar is tried to run the files for storing reminders and notes will be created outside the jar for modification. 
